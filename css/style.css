@@ -380,5 +380,69 @@
 }
 
 
+/* style */
+
+.highlights{
+    background: #0B0F19;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.highlights-title{
+    color: #E5E7EB;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.highlights-subtitle{
+    color: #9CA3AF;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.stats-grid{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.stat-box{
+    min-width: 140px;
+}
+
+.stat-number{
+    color: #67E8F9;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.stat-label{
+    color: #9CA3AF;
+    font-size: 14px;
+}
+
+.highlight-quote{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-top: 1px solid #374151;
+}
+
+.quote-text{
+    color: #D1D5DB;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.quote-author{
+    color: #6B7280;
+    font-size: 13px;
+}
+
+
 
 
