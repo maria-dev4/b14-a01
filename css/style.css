@@ -138,7 +138,7 @@
     transform: scale(1.05);
  }
 
- .spakers{
+ .speakers{
    padding: 80px 60px;
    text-align: center;
  }
@@ -164,7 +164,7 @@
    background-color: white;
    border-radius: 10px;
    box-shadow: 0 2px 4px #a5a4a4;
-   text-aling: left;
+   text-align: left;
    overflow: hidden;
 
  }
@@ -173,7 +173,7 @@
    width: 100%;
    height: 220px;
    object-fit: cover;
-   disply: block;
+   display: block;
  }
 
  .speakers-info{
@@ -184,7 +184,7 @@
  .category{
    color: var(--green);
    font-size: 12px;
-   font-width: 700;
+   font-weight: 700;
    letter-spacing: 0.5px;
  }
 
@@ -443,6 +443,38 @@
     font-size: 13px;
 }
 
+.footer{
+    background: #0B0F19;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.footer-logo{
+    color: #E5E7EB;
+    font-weight: 700;
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.footer-socials a{
+    color: #9CA3AF;
+    text-decoration: none;
+}
+
+.footer-divider{
+    border-top: 1px solid #374151;
+    margin: 15px 0;
+}
+
+.footer-copyright{
+    color: #6B7280;
+    font-size: 13px;
+}
 
 
 
